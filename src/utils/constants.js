@@ -1,6 +1,6 @@
 let constants = {}
 
-constants.organization = 'poanetwork'
+constants.organization = 'tendanetwork'
 constants.repoName = 'poa-chain-spec'
 constants.addressesSourceFile = 'contracts.json'
 constants.ABIsSources = {
@@ -10,24 +10,10 @@ constants.userDeniedTransactionPattern = 'User denied transaction'
 constants.baseURL = '/poa-dapps-keys-generation'
 
 constants.NETWORKS = {
-  '42': {
-    NAME: 'Kovan',
-    BRANCH: 'kovan',
-    TESTNET: true
-  },
-  '77': {
-    NAME: 'Sokol',
-    BRANCH: 'sokol',
-    TESTNET: true
-  },
-  '99': {
-    NAME: 'Core',
-    BRANCH: 'core',
-    TESTNET: false
-  },
-  '100': {
-    NAME: 'Dai',
-    BRANCH: 'dai',
+  '177': {
+    NAME: 'Tenda',
+    RPC: 'https://rpc.tenda.network',
+    BRANCH: 'tenda',
     TESTNET: false
   }
 }
