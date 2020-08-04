@@ -11,10 +11,10 @@ constants.baseURL = '/poa-dapps-keys-generation'
 
 constants.NETWORKS = {
   '177': {
-    NAME: 'Tenda',
-    RPC: 'https://rpc.tenda.network',
-    BRANCH: 'tenda',
-    TESTNET: false
+    NAME: 'Tenda-dev',
+    RPC: 'https://rpc.dev.tenda.network',
+    BRANCH: 'tenda--dev',
+    TESTNET: true
   }
 }
 
